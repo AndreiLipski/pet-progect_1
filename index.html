@@ -1,15 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>pet progect 1</title>
 </head>
-<body>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<body class="background">
+  <div class="header-background fixed-top">
+      <header class="container-md"">
+            <div class="container-90">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                    <div class="container-fluid nav-padding">
+                      <a class="navbar-brand" href="#"><i class="bi bi-box-fill logo"></i></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 " style="--bs-scroll-height: 100px;">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">О нас</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">История</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Производство</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Наши проэкты</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Новости</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Контакты</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+      </header>
+    </div>
+    <main class="container-md">
+        <section class="container-90 section-prev">
+          <div class="row">
+            <div class="col-lg-8">
+              <p class="section-prev__text">Мы создаем индивидуальный дизайн и воплащаем его в реальность</p>
+              <p class="section-prev__text-title">cовершенство всегда находится в стадии строительства</p>
+            </div>
+          </div>
+        </section>
+        <section class="section-one white-wrap">
+          <div class="container-90">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="section-one__img-box">
+                  <img class="section-one__img" src="img/img-1.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-md-7 section-one__left-wrap">
+                <p class="text-title">История</p>
+                <p class="text-title_small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, dolores sint? Blanditiis totam voluptate fuga. Pariatur aliquid quo ipsam molestias dignissimos.</p>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nemo repellendus enim ut dolores eaque ex tenetur deleniti ducimus libero. Cumque reprehenderit quae expedita, impedit molestiae magnam non hic modi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, libero ipsa? Dicta, minima enim. Nemo veritatis aliquam ipsum saepe optio vel rem ipsam unde magnam vero, fugit non mollitia cumque.</p>
+                <div class="row">
+                  <div class="col box">
+                    <p class="box__number">24</p>
+                    <p class="box__text">Года<br>создаем</p>
+                  </div>
+                  <div class="col box">
+                    <p class="box__number">24</p>
+                    <p class="box__text">Года<br>создаем</p>
+                  </div>
+                  <div class="col box">
+                    <p class="box__number">24</p>
+                    <p class="box__text">Года<br>создаем</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-two white-wrap">
+          <div class="container-90">
+            <p class="text-title">Производство</p>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="card-body__flex">
+                        <i class="bi bi-building"></i>
+                        <p class="text-title_small">Lorem ipsum dolor</p>
+                        </div>
+                      <p class="card-body__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="card-body__flex">
+                        <i class="bi bi-hammer"></i>
+                        <p class="text-title_small">Lorem ipsum dolor</p>
+                        </div>
+                      <p class="card-body__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="card-body__flex">
+                        <i class="bi bi-cash-coin"></i>
+
+                        <p class="text-title_small">Lorem ipsum dolor</p>
+                        </div>
+                      <p class="card-body__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="card-body__flex">
+                        <i class="bi bi-eye"></i>
+                        <p class="text-title_small">Lorem ipsum dolor</p>
+                        </div>
+                      <p class="card-body__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section></section>
+        <section></section>
+        <section></section>
+    </main>
+    <footer>
+
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
