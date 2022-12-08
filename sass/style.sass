@@ -21,17 +21,22 @@ i
     background-repeat: no-repeat
     background-size: 100% auto
     background-color: $color-1
+.container-md_shadow
+    -webkit-box-shadow: -1px 0px 35px 3px rgba(240, 169, 28, 0.15)
+    -moz-box-shadow: -1px 0px 35px 3px rgba(240, 169, 28, 0.15)
+    box-shadow: -1px 0px 35px 3px rgba(240, 169, 28, 0.15)
 .container-90
     width: 90%
     margin: 0 auto
 .white-wrap
     background: #fff
-    padding-top: 30px
+    padding-top: 80px
 .text-title
     font-size: 1.8rem
     font-weight: 500
     border-left: 4px solid $color-2
     padding-left: 20px
+    margin-bottom: 20px
     &_small
         font-size: 1rem
         font-weight: 500
@@ -44,7 +49,6 @@ i
         font-size: 2.6rem
         font-weight: 700
 .section-one
-    padding-bottom: 40px
     &__img-box
         border: 2px solid $color-1
     &__img
@@ -56,16 +60,7 @@ i
         margin-bottom: 30px
     &__card
 
-.row
-
-.col-md-5
-
-.col-md-7
-
-.col
-
 .box
-
     &__number
         padding-top: 10px
         font-size: 2rem
@@ -74,9 +69,13 @@ i
 
 .card
     border-radius: 0
-.card:hover
+
+.card_mod-1:hover
     transition: 0.5s
     background-color: $color-2
+.card_mod-2:hover
+    transition: 0.5s
+    border-left: 2px solid $color-2
 .card-body
     &__flex
         display: flex
@@ -100,6 +99,75 @@ i
         color: #fff
         font-size: 0.6rem
         font-weight: 500
+.box-img__text:hover
+    color: $color-2
+    transition: 0.3s
 .img-hight
     width: 100%
     height: 100%
+
+.text-title
+    &_md
+        font-size: 1.8rem
+        font-weight: 500
+        border-right: 4px solid $color-2
+        padding-right: 20px
+        text-align: right
+.box-four
+    height: 80%
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    text-align: right
+    &__number
+        font-size: 4rem
+        font-weight: 500
+    &__box-star
+    &__star
+        width: 20px
+    &__name
+        color: #868585
+        font-size: 0.6rem
+    &__review
+
+.section-contacts
+    &__box
+        height: 300px
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        text-align: center
+    &__text
+        font-size: 0.6rem
+        font-weight: 500
+        margin-bottom: 30px
+        color: $color-2
+    &__number
+        font-size: 2rem
+        font-weight: 700
+        text-decoration: none
+        color: #000000
+        margin-bottom: 20px
+    &__number:hover
+        color: $color-2
+        transition: 0.3s
+    &__address
+        font-size: 0.8rem
+        font-weight: 500
+
+.footer
+    background-color: #fff
+    text-align: center
+    align-items: center
+    &__icon
+        font-size: 1.6rem
+        padding: 10px 0
+    &__text
+        font-size: 0.6rem
+        font-weight: 500
+        padding: 10px 0
+    &__logo
+        padding: 10px 0
+
+

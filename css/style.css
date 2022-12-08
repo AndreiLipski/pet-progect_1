@@ -28,6 +28,10 @@ i {
   background-color: #eef2f5;
 }
 
+.container-md_shadow {
+  box-shadow: -1px 0px 35px 3px rgba(240, 169, 28, 0.15);
+}
+
 .container-90 {
   width: 90%;
   margin: 0 auto;
@@ -35,7 +39,7 @@ i {
 
 .white-wrap {
   background: #fff;
-  padding-top: 30px;
+  padding-top: 80px;
 }
 
 .text-title {
@@ -43,6 +47,7 @@ i {
   font-weight: 500;
   border-left: 4px solid #f0a91c;
   padding-left: 20px;
+  margin-bottom: 20px;
 }
 .text-title_small {
   font-size: 1rem;
@@ -58,9 +63,6 @@ i {
   font-weight: 700;
 }
 
-.section-one {
-  padding-bottom: 40px;
-}
 .section-one__img-box {
   border: 2px solid #eef2f5;
 }
@@ -80,9 +82,14 @@ i {
   border-radius: 0;
 }
 
-.card:hover {
+.card_mod-1:hover {
   transition: 0.5s;
   background-color: #f0a91c;
+}
+
+.card_mod-2:hover {
+  transition: 0.5s;
+  border-left: 2px solid #f0a91c;
 }
 
 .card-body__flex {
@@ -112,7 +119,86 @@ i {
   font-weight: 500;
 }
 
+.box-img__text:hover {
+  color: #f0a91c;
+  transition: 0.3s;
+}
+
 .img-hight {
   width: 100%;
   height: 100%;
+}
+
+.text-title_md {
+  font-size: 1.8rem;
+  font-weight: 500;
+  border-right: 4px solid #f0a91c;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.box-four {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: right;
+}
+.box-four__number {
+  font-size: 4rem;
+  font-weight: 500;
+}
+.box-four__star {
+  width: 20px;
+}
+.box-four__name {
+  color: #868585;
+  font-size: 0.6rem;
+}
+.section-contacts__box {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.section-contacts__text {
+  font-size: 0.6rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: #f0a91c;
+}
+.section-contacts__number {
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.section-contacts__number:hover {
+  color: #f0a91c;
+  transition: 0.3s;
+}
+.section-contacts__address {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.footer {
+  background-color: #fff;
+  text-align: center;
+  align-items: center;
+}
+.footer__icon {
+  font-size: 1.6rem;
+  padding: 10px 0;
+}
+.footer__text {
+  font-size: 0.6rem;
+  font-weight: 500;
+  padding: 10px 0;
+}
+.footer__logo {
+  padding: 10px 0;
 }
