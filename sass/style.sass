@@ -46,8 +46,15 @@ i
     &__text
 
     &__text-title
-        font-size: 2.6rem
-        font-weight: 700
+        font-size: 3rem
+        font-weight: 500
+        text-transform: uppercase
+        @media (max-width: 768px)
+            font-size: 2rem
+        @media (max-width: 460px)
+            font-size: 1.8rem
+        @media (max-width: 420px)
+            font-size: 1.6rem
 .section-one
     &__img-box
         border: 2px solid $color-1
@@ -65,7 +72,11 @@ i
         padding-top: 10px
         font-size: 2rem
         margin-bottom: 10px
+        @media (max-width: 576px)
+            text-align: center
     &__text
+        @media (max-width: 576px)
+            text-align: center
 
 .card
     border-radius: 0
@@ -149,6 +160,8 @@ i
         text-decoration: none
         color: #000000
         margin-bottom: 20px
+        @media (max-width: 420px)
+            font-size: 1.6rem
     &__number:hover
         color: $color-2
         transition: 0.3s
